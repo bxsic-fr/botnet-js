@@ -1,0 +1,33 @@
+{
+  "name": "botnet-js",
+  "version": "1.0.0",
+  "description": "Botnet using Node framework",
+  "main": "server.js",
+  "scripts": {
+    "test": "node server.js",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bxsic-fr/botnet-js.git"
+  },
+  "keywords": [
+    "botnet",
+    "nodejs",
+    "reverse-shell"
+  ],
+  "author": "Bxsic",
+  "license": "AGPL-3.0",
+  "bugs": {
+    "url": "https://github.com/bxsic-fr/botnet-js/issues"
+  },
+  "homepage": "https://github.com/bxsic-fr/botnet-js#readme",
+  "dependencies": {
+    "child_process": "^1.0.2",
+    "colors": "^1.4.0",
+    "fs-extra": "^10.0.0",
+    "http": "0.0.1-security",
+    "readline-sync": "^1.4.10",
+    "websocket": "^1.0.34"
+  }
+}
