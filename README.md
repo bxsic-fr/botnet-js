@@ -26,6 +26,20 @@ let port = 8080;
 
 > $ {id} shell_command
 
+## Special commands
+
+╔══════════╤══════════════════════════════════════════════╗
+║ commands │                                              ║
+╠══════════╪══════════════════════════════════════════════╣
+║   help   │    All commands (other of shell commands)    ║
+╟──────────┼──────────────────────────────────────────────╢
+║   list   │          List all active connections         ║
+╟──────────┼──────────────────────────────────────────────╢
+║ sendfile │         Send file to specific client         ║
+╟──────────┼──────────────────────────────────────────────╢
+║  execall │ Execute a same command for every connections ║
+╚══════════╧══════════════════════════════════════════════╝
+
 ![image](https://user-images.githubusercontent.com/65828028/124164591-1f05dd80-daa1-11eb-99a8-974086eb4cde.png)
 
 ## Contributing
