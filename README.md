@@ -5,14 +5,10 @@ NodeJS Botnet using websocket to interact between clients & server. Use it at yo
 
 ## Installation
 
-Use the package manager [npm](https://nodejs.org/en/download/) to install some packages (all includes in intallation.bat)
-
+Use the package manager [npm](https://nodejs.org/en/download/) to install some packages (all includes in the package.json).
+Just launch that : 
 ```bash
-npm install websocket
-npm install colors
-npm install child_process
-npm install http
-npm install readline-sync
+npm install
 ```
 
 ## Settings (same as reverse-shell-js)
