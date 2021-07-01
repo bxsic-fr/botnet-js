@@ -28,19 +28,17 @@ let port = 8080;
 
 ## Special commands
 
-╔══════════╤══════════════════════════════════════════════╗
-║ commands │                                              ║
-╠══════════╪══════════════════════════════════════════════╣
-║   help   │    All commands (other of shell commands)    ║
-╟──────────┼──────────────────────────────────────────────╢
-║   list   │          List all active connections         ║
-╟──────────┼──────────────────────────────────────────────╢
-║ sendfile │         Send file to specific client         ║
-╟──────────┼──────────────────────────────────────────────╢
-║  execall │ Execute a same command for every connections ║
-╚══════════╧══════════════════════════════════════════════╝
+- help : All commands (other of shell commands)
 
-![image](https://user-images.githubusercontent.com/65828028/124164591-1f05dd80-daa1-11eb-99a8-974086eb4cde.png)
+- list : List all active connections
+
+- sendfile : Send file to specific client
+
+- execall : Execute a same command for every connections
+
+## Exemple
+
+![presentation-botnet](https://user-images.githubusercontent.com/65828028/124186647-ec69de00-dabc-11eb-99a1-6e667f564fb9.gif)
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
