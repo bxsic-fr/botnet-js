@@ -3,7 +3,7 @@
 
 NodeJS Botnet using websocket to interact between clients & server. Use it at your own risks (for education purpose only).
 
-## Installation
+## Installation 
 
 Use the package manager [npm](https://nodejs.org/en/download/) to install some packages (all includes in the package.json).
 Just launch that : 
